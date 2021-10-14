@@ -34,4 +34,4 @@ After searching the city you will see the current weather conditions along with 
 - [Deployed Application](https://paw6063.github.io/Homework06_WeatherDashboard/)
 
 ## License
-[MIT](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[MIT](https://github.com/PAW6063/Homework06_WeatherDashboard/blob/main/LICENSE)
