@@ -1,0 +1,54 @@
+:root {
+    --darkP: #200947;
+    --lightP: #D4CAE6;
+    --darkY: #99930F;
+    --medY: #E6DD2E;
+    --lightY: #FAF9DC;
+}
+
+
+
+.navbar {
+    background-color: var(--darkP);
+    color: var(--lightP);
+    justify-content: center;
+}
+
+.searchCard {
+    margin: 10px;
+    background-color: var(--lightP);
+    border-color: var(--darkP);
+}
+
+.todayCard{
+    margin: 10px;
+    background-color: var(--lightP);
+    border-color: var(--darkP);
+}
+
+.fiveDay {
+    font-size: 15px;
+    background-color: var(--darkP);
+    border-color: var(--darkY);
+    color: var(--lightP);
+}
+
+.localBtnList {
+    margin: 0px 10px;
+    border-top: 1px solid var(--darkP);
+}
+
+.btn {
+    margin-top: 5px;
+    font-weight: 500;
+    background-color: var(--lightY);
+    color: var(--darkP);
+    border-color: var(--darkP);
+}
+
+.fullWidth {
+    width: 100%;
+}
+.noBorder {
+    border: none;
+}
