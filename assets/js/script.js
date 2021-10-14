@@ -32,7 +32,7 @@ function weatherApi(lat, long, cityName) {
 }
 
 function cordsApi(cityName, local) {
-    let url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
+    let url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
     fetch(url)
         .then(function(response) {
             if(response.status !== 404){
